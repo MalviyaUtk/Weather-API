@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container1>img{
+    height: 60vh;
+    margin-top: 20vh;
+}
+
+
+.container1{
+    height: 99vh;
+    width: 100%;
+    overflow: hidden;
+    background: #01579B;
+    
+}
+
+.main{
+    height: 50vh;
+    width: 40vh;
+    margin-top: -50vh;
+    margin-left: 60vmax;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #01579B;
+    border-radius: 20px;
+    border: solid #8CC7F7;
+}
+
+.inputFeild{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #01579B;
+    color: white;
+    width: 18vmax;
+    height: 35px;
+    border: solid .1px #8CC7F7;
+    border-radius: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.location{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 22vmax;
+    color: #8CC7F7;
+}
+
+.maintemp{
+   color: #8CC7F7;
+   font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.minimum{
+    color: #8CC7F7;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
